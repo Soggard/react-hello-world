@@ -10,6 +10,6 @@ script:
 on:
   branch: master
 deploy:
-  provier: heroku
+  provider: heroku
   api_key: $HEROKU_KEY
   app: $HEROKU_APP
